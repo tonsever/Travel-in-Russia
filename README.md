@@ -1,1 +1,5 @@
-# Travel-in-Russia
+# Контрольная работа 4го спринта
+## Версия: v0.0.4
+## Ссылка:  https://tonsever.github.io/Travel-in-Russia/
+### Технологии: HTML5, CSS3, БЭМ, Figma
+### Адаптивная вёрстка и работа с макетом
