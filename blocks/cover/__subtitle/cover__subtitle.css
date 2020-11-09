@@ -1,0 +1,27 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.cover__subtitle {
+  max-width: 382px;
+  padding-bottom: 4%;
+  /*margin: 0 auto 48px auto;*/
+  margin: auto;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Inter', Arial, sans-serif;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 375px) { 
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 16px;
+    padding-right: 16px;    
+  } 
+}

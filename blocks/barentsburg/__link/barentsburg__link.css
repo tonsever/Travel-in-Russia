@@ -1,0 +1,16 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.barentsburg__link {
+  display: block;
+  max-width: 282px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.barentsburg__link:hover {
+  opacity: .7;
+}

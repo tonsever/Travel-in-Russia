@@ -1,0 +1,25 @@
+.video__icon {
+  display: block;
+  width: 41px;
+  height: 41px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+  margin-left: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) { 
+  .video__icon {
+    margin-top: 24px;
+    margin-left: 24px;
+  } 
+}
+
+@media (max-width: 320px) { 
+  .video__icon {
+    margin-top: 16px;
+    margin-left: 16px;
+  } 
+}

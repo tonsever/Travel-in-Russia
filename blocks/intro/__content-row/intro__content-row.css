@@ -1,0 +1,9 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.intro__content-rowe {
+  display: flex;
+  margin: 0 0 0 0;
+  max-width: 984px;
+  min-height: 154px;
+  font-family: 'Inter', sans-serif;
+}

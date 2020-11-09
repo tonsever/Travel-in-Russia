@@ -1,0 +1,17 @@
+.content-title_line-height_m {
+  line-height: 65px;
+}
+
+ @media (max-width: 768px) { 
+  .content-title_line-height_m {
+     font-size: 42px;
+     line-height: 46px;
+  }
+}
+
+@media (max-width: 375px) { 
+  .content-title_line-height_m {
+     font-size: 35px;
+     line-height: 35px;
+  } 
+}

@@ -1,0 +1,11 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.additional__heading {
+  max-width: 248px;
+  margin: 30px 18px 0 18px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 29px;
+  font-family: 'Inter', Arial, sans-serif;
+}

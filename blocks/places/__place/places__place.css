@@ -1,0 +1,11 @@
+.places__place {
+  display: flex;
+  flex-wrap: wrap;
+  width: 984px;
+  margin-bottom: 72px;
+}
+
+.places__place:last-child {
+  margin-bottom: 0;
+}
+

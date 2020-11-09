@@ -1,0 +1,11 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.barentsburg__coord {
+  max-width: 583px;
+  margin: 0 0 40px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 61px;
+  font-family: 'Inter', Arial, sans-serif;
+}

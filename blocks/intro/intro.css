@@ -1,0 +1,29 @@
+@import url('./__content-row/intro__content-row.css');
+@import url('./__subtitle/intro__subtitle.css');
+@import url('./__text/intro__text.css');
+@import url('./__title/intro__title.css');
+@import url('./__list/intro__list.css');
+@import url('./__list-item/intro__list-item.css');
+@import url('./__author/intro__author.css');
+@import url('./__author-item/intro__author-item.css');
+@import url('./__text-bold/intro__text-bold.css');
+@import url('https://rsms.me/inter/inter.css');
+
+.intro {
+  max-width: 984px;
+  padding: 80px 0 0 0;
+  margin: auto;
+  font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 1024px) { 
+  .intro {
+    padding: 80px 24px 0 24px;
+  } 
+}
+
+@media (max-width: 375px) { 
+  .intro {
+    padding: 64px 16px 0 16px;
+  } 
+}

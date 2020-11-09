@@ -1,0 +1,14 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.header__lang{
+  margin-right: 18px;
+}
+.header__lang:last-of-type {
+  margin-right: 0;
+}
+
+.header__lang:hover {
+  opacity: .7;
+}
+
+

@@ -1,0 +1,31 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.footer__link {
+  max-width: 74px;
+  margin-right: 18px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 41px;
+  color: #FFFFFF;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.footer__link:hover {
+  opacity: .7;
+}
+
+@media (max-width: 900px) { 
+  .footer__link{
+    font-size: 16px;
+    line-height: 27px;
+  } 
+}
+
+@media (max-width: 375px) { 
+  .footer__link{
+    font-size: 24px;
+    line-height: 41px;
+  } 
+}

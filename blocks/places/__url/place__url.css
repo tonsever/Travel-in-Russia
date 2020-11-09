@@ -1,0 +1,15 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.place__url {
+  align-self: flex-start;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.place__url:hover {
+  opacity: .7;
+}

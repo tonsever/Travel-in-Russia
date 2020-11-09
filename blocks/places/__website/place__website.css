@@ -1,0 +1,38 @@
+.place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;  
+  width: 484px; 
+  margin: 0; 
+}
+
+@media (max-width: 1024px) { 
+  .place__website {
+    width: 456px;
+    margin: 0 24px 0 28px;  
+  } 
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+  .place__website {
+    width: 340px;
+    margin: 0 24px 0 24px; 
+  } 
+}
+
+
+@media (max-width: 767px) { 
+  .place__website {
+    padding-left: 24px;
+    padding-top: 32px;
+    margin: 0;
+  } 
+}
+
+
+@media (max-width: 425px) { 
+  .place__website {
+    display: none;
+  } 
+}

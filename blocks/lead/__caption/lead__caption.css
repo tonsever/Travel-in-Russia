@@ -1,0 +1,25 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.lead__caption {
+  margin: 0;
+  padding: 11px 0 0 0;
+  font-style: normal;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) { 
+  .lead__caption {
+    padding: 16px 0 0 24px;
+  } 
+}
+
+@media (max-width: 375px) { 
+  .lead__caption {
+    padding: 8px 0 0 16px;
+  } 
+}

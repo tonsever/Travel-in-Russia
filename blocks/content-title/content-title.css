@@ -1,0 +1,29 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.content-title {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 48px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 78px;
+  text-align: center;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 768px) { 
+  .content-title{
+     font-size: 42px;
+     line-height: 46px;
+	 margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 375px) { 
+  .content-title{
+     font-size: 35px;
+     line-height: 35px;
+	 margin-bottom: 16px;
+  } 
+}

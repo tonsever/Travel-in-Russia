@@ -1,0 +1,17 @@
+
+.comments__comment {
+   max-width: 382px;
+}
+
+@media (max-width: 768px) { 
+  .comments__comment{
+	display: flex;
+    flex-direction: column;  
+    margin: auto;	
+  }
+  
+   .comments__comment:nth-child(even) {
+    margin-top: 47px;
+	margin-bottom: 47px;
+  }  
+}

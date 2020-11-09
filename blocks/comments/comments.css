@@ -1,0 +1,13 @@
+@import url('./__container/comments__container.css');
+@import url('./__comment/comments__comment.css');
+@import url('./__image/comments__image.css');
+@import url('./__quote/comments__quote.css');
+@import url('./__author/comments__author.css');
+@import url('../content-title/_line-height/_m/content-title_line-height_m.css');
+
+
+.comments {
+  max-width: 1184px;
+  margin: auto;
+  padding: 0 0 102px 0;
+}

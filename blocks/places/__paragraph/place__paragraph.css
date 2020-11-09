@@ -1,0 +1,22 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.place__paragraph {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.place__paragraph:nth-child(2n) {
+  margin-top: 36px;
+}
+
+@media (max-width: 768px) { 
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 27px;
+  } 
+}
+

@@ -1,0 +1,12 @@
+.place {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 984px;
+  margin-bottom: 72px;
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}
+

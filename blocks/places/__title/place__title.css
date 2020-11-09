@@ -1,0 +1,47 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.place__title {
+  width: 457px;
+  /*margin: 0 auto 0 0;*/
+  margin: 0;
+  padding: 0 43px 0 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 65px;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 1024px) { 
+  .place__title {
+    max-width: 440px;
+    padding: 0 0 0 0;
+  } 
+}
+
+/*@media (max-width: 768px) { 
+  .place__title {
+	  width: 340px;  
+    font-size: 42px;
+    line-height: 46px;
+    padding: 0 0 0 24px;
+  } 
+}*/
+
+@media (min-width: 768px) and (max-width: 1023px) { 
+  .place__title {
+	  width: 340px;  
+    font-size: 42px;
+    line-height: 46px;
+    padding: 0 0 0 24px;
+  } 
+}
+
+
+@media (max-width: 450px) { 
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+	  padding: 0 0 0 16px;
+  } 
+}
